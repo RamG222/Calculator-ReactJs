@@ -34,6 +34,7 @@ function App() {
       firstNumber.current = null;
       secondNumber.current = null;
       operator.current = null;
+      answer.current = null;
     }
   }
 
@@ -90,6 +91,7 @@ function App() {
         <button className="operator" onClick={() => handleOperator("/")}>
           /
         </button>
+
         <button className="operator equal" onClick={() => handleOperator("=")}>
           =
         </button>
