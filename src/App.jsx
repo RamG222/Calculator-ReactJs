@@ -45,6 +45,10 @@ function App() {
         <h2 className="display">{input}</h2>
       </div>
       <div className="button-container">
+        <button className="operator equal" onClick={() => location.reload()}>
+          AC
+        </button>
+        <br />
         <button className="number" onClick={() => handleClick("1")}>
           1
         </button>
